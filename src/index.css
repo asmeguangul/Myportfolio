@@ -22,7 +22,9 @@ body {
 a {
   position: relative;
   cursor: pointer;
-}
+
+  }
+  
 
 a::after {
   content: "";

@@ -11,7 +11,7 @@ function Contact() {
     emailjs.sendForm('service_8jt7o5d', 'template_kdtyrag', form.current, 'vJX_4Gj5yD05jWvCS')
       .then((result) => {
         console.log(result.text);
-        console.log("Message Sent");
+        console.log("Thank you for your message, I will be back to you soon");
         
         e.target.reset();
       }, (error) => {
@@ -43,7 +43,7 @@ function Contact() {
             name="user_email"
             required />
 
-          <label>Your Message</label>
+          <label>Your Message </label>
           <textarea
             className='p-4 resize-none rounded-[4px] input bg-[#e4e1e1fa] dark:bg-[#343541] h-[198px] '
             placeholder='Your message'
