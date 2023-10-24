@@ -2,7 +2,7 @@ const expData = [
    
     {
       id: "1",
-      org: "SKANS PK",
+      org: "Developer",
       title: "Senior Software Developer",
       date: "04/2020-03/2022",
       description:  
@@ -11,7 +11,7 @@ const expData = [
     },  
     {
         id: "2",
-        org: "Freelance",
+        org: "Developer",
         title: "Software Developer",
         date: "02/2017-04/2020",
         description:  
@@ -19,7 +19,7 @@ const expData = [
       },  
       {
         id: "3",
-        org: "Freelance",
+        org: "Instructor",
         title: "Instructor",
         date: "03/2013 - 02/2017",
         description:  
